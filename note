@@ -1,0 +1,10 @@
+#!/bin/bash
+
+AUTHOR=$(whoami)
+str="
+=============
+$@
+-$AUTHOR
+============="
+
+echo "$str" >> notess

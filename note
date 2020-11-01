@@ -6,6 +6,6 @@ str="echo \"$@
 $DATE
 -$AUTHOR
 =============\""
-chmod 777 notess
+chmod 777 notes
 echo "$str" >> notes
-chmod 444 notess
+chmod 444 notes

@@ -8,4 +8,7 @@ fi
 if [[ -f note ]]; then
     chmod 555 note
     mv note notes /usr/local/bin
+    echo "Note installed correctly. Use \"note YOUR NOTE INFINITE\" to add a new note, use \"notes\" to read the notes"
+else
+    echo "Ypu already installed note!"
 fi

@@ -33,14 +33,14 @@ notes
 
 ## Example
 
-This is how the notes should looks like
+This is how the notes looks
 
 ```
-\=============\
+=============
 Apache installed and working currently.
 02:44
 -ubuntu
-\=============\
+=============
 ```
 
 ## Authors

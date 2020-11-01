@@ -10,5 +10,5 @@ if [[ -f note ]]; then
     mv note notes /usr/local/bin
     echo "Note installed correctly. Use \"note YOUR NOTE INFINITE\" to add a new note, use \"notes\" to read the notes"
 else
-    echo "Ypu already installed note!"
+    echo "You already installed note!"
 fi

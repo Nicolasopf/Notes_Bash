@@ -1,9 +1,11 @@
 #!/bin/bash
 
+DATE=$(date +%H:%M)
 AUTHOR=$(whoami)
 str="echo \"$@
+$DATE
 -$AUTHOR
 =============\""
-chmod u+rwx notess
+chmod 777 notess
 echo "$str" >> notes
 chmod 444 notess

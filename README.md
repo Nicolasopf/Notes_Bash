@@ -26,13 +26,11 @@ Read all the note's using the command "notes"
 
 This is how the notes should looks like
 
----
 =============
 Apache installed and working currently.
 02:44
 -ubuntu
 =============
----
 
 ## Authors
 

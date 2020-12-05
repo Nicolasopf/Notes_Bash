@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NOTEP="/usr/local/bin/notes"
+NOTEP="/usr/bin/notes"
 DATE=$(date +%H:%M)
 AUTHOR=$(whoami)
 str="echo \"$@
@@ -9,4 +9,4 @@ $DATE
 =============\""
 chmod 777 $NOTEP
 echo "$str" >> $NOTEP
-chmod 444 $NOTEP
+chmod 555 $NOTEP

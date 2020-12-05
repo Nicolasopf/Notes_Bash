@@ -6,9 +6,10 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 if [[ -f note ]]; then
-    chmod 555 note
+    chmod 5555 note
+    chmod 555 notes
     mv note notes /usr/local/bin
-    echo "Note installed correctly. Use \"note YOUR NOTE INFINITE\" to add a new note, use \"notes\" to read the notes"
+    echo "Note installed correctly. Use: \"note YOUR INFINITE NOTE\" to add a new note. Use \"notes\" to read the notes"
 else
     echo "You already installed note!"
 fi
